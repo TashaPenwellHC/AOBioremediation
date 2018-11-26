@@ -1,0 +1,171 @@
+body {
+   background-color: #362101;
+   padding: 0em 2em 3em 2em;
+}
+
+article {
+   background-color: white;
+   padding: 2em .5em 2em .5em;
+   
+}
+
+.my-container {
+   content: ' ';
+   display: block;
+   position: absolute;
+   padding: 2em .5em 2em .5em;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 170%;
+   z-index: 1;
+   opacity: 0.1;
+   background-image: url('green-leaf-md.png');
+   background-repeat: no-repeat;
+   background-position: 50% 0;
+   -ms-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+}
+
+.heading {
+   color: #362101;
+   font-size: 4em;
+   padding-left: .5em;
+   font-weight: strong;
+
+}
+
+
+/* BEGIN HORIZONTAL DROP-MENU */
+nav {
+    position: relative;
+    width: 100%;  *adjust width as needed*
+    margin: 1em;
+    padding: .5em 0em 5em 0em;
+    text-align: center;
+    z-index: 1000;
+    background-color: #362101;
+}
+nav ul {
+    margin: 0em;
+    padding: 1em;
+}
+nav li {
+    list-style: none;
+    font-size: 1.5em;
+    float: right;
+    text-align: center;
+}
+/**top level menu**/
+nav li a {
+    display: block;
+    text-decoration: none;
+    margin-right: 2px;   /* space between links */
+    width: 6em;   /* adjust as needed or use auto */
+    padding: 6px 14px;
+    font-weight: bold;
+    line-height: 2em;
+    color: goldenrod;
+    
+   
+    background:#362101;
+}
+/**top menu style on mouse over**/
+nav li:hover > a {
+    color: #362101;
+    background:goldenrod;
+    border-radius: 5px;
+    /* border: 1px 1px 0px 1px solid rgb(1, 134, 30); */
+   }
+/**sub-menu**/
+nav li ul {
+    display: none;
+    text-align: center;
+    margin: 0;
+    padding: 0 1em;
+    background:rgb(227, 213, 199);
+    font-weight:normal;
+    font-style:oblique;
+    font-size: .5em;
+    /* border: 0px 1px 1px 1px solid grb(1, 134, 30) */
+}
+/**sub-menu, help for older IE**/
+nav li:hover ul, nav li.hover ul {
+    display: block;
+    position: absolute;
+    padding: 0;
+}
+nav li:hover li, 
+nav li.hover li {float: none;}
+/**drop-menu style**/
+nav li:hover li a, nav li.hover li a {
+    width: 6em;  /* adjust width as needed or use auto */
+    margin-top: 0;
+    line-height:1.25em;
+    font-weight:normal;
+    border:none;
+}
+/**drop-menu style on mouse over**/
+nav li li a:hover {
+    background:#362101;
+    color: white;
+ 
+}
+
+
+/* Microbe image on index page */
+img {
+  padding: .5em 0em 5em 0em;
+  width: 100%;
+  height: 30em;
+}
+
+
+/* Text on top of image on index page */
+.container {
+   position: relative;
+   text-align: center;
+   color: white;
+}
+
+.centered {
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   transform: translate (-50%, -50%);
+   font-size: 7em;
+}
+
+/*styling for text on index page on top of image*/
+.centerIndexImage {
+   position: absolute;
+   top: 1.2em;
+   left: 1.7em;
+   transform: (-50%, -50%);
+   color: white;
+   font-size: 7em;
+   padding-left: .5em;
+   font-weight: strong;
+   text-shadow: 5px 1px #000;
+  
+
+}
+
+.alignright {
+   text-align: right;
+   
+}
+
+
+.alignleft {
+   text-align: left;
+   
+}
+
+.imgSpace {
+   display: block;
+}
+

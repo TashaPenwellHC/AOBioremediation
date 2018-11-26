@@ -1,46 +1,162 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel = "stylesheet" href="AOB_CSS.css">
 <style>
 h1 {
     color: #362101;
     margin-left: 30px;
     }
 
-p, ul {
+.bullet, .para {
     font-size: 20px;
     font-family: Arial;
     margin-left: 35px;
     margin-right: 25px;
+    margin-top: 1em;
     }
 
 
-ul {
+.bullet {
     line-height: 1.8;
     list-style-image: url('green-leaf-md.png');
-}
+} 
 
 p {
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 </style>
 </head>
 
+<body>
+
+<!-- *******HEADER/NAV **********-->
+
+<nav>
+
+      
+        <ul>
+            <li><a href="AboutUs.html">About Us &#9660;</a> 
+                <ul>
+                    <li><a href="#Science">Science</a>
+    
+                        </li>
+                    <li><a href="#Process">Process</a>
+    
+                    </li>
+                    <li><a href="#Understanding">Understanding</a>
+    
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Product &#9660;</a>
+    
+                <ul>
+                    <li><a href="#">Products 1</a>
+    
+                    </li>
+                    <li><a href="#">Products 2</a>
+    
+                    </li>
+                    <li><a href="#">Products 3</a>
+    
+                    </li>
+                    <li><a href="#">Products 4</a>
+    
+                    </li>
+                </ul>
+                <li><a href="#">Gallery &#9660;</a>
+    
+                    <ul>
+                        <li><a href="#">Gallery 1</a>
+        
+                        </li>
+                        <li><a href="#">Gallery 2</a>
+        
+                        </li>
+                        <li><a href="#">Gallery 3</a>
+        
+                        </li>
+                        <li><a href="#">Gallery 4</a>
+        
+                        </li>
+                    </ul>
+                    <li><a href="#">Partners &#9660;</a>
+    
+                        <ul>
+                            <li><a href="#">Partners 1</a>
+            
+                            </li>
+                            <li><a href="#">Partners 2</a>
+            
+                            </li>
+                            <li><a href="#">Partners 3</a>
+            
+                            </li>
+                            <li><a href="#">Partners 4</a>
+            
+                            </li>
+                        </ul>
+            
+
+                    <li><a href="#">Science &#9660;</a>
+    
+                        <ul>
+                            <li><a href="#">Science 1</a>
+    
+                             </li>
+                            <li><a href="#">Science 2</a>
+    
+                            </li>
+                            <li><a href="#">Science 3</a>
+    
+                                 </li>
+                            <li><a href="#">Science 4</a>
+    
+                         </li>
+                </ul>
+
+                <li><a href="#">Contact Us &#9660;</a>
+    
+                    <ul>
+                        <li><a href="#">Contact Us 1</a>
+
+                         </li>
+                        <li><a href="#">Contact Us 2</a>
+
+                        </li>
+                        <li><a href="#">Contact Us 3</a>
+
+                             </li>
+                        <li><a href="#">Constact 4</a>
+
+                     </li>
+            </ul>
+    </li>
+                <li><a href="index.html">Home</a></li>  
+        </ul>
+    </nav>
 
 <!--creating section names so that user can go directly to desired section on page-->
 
+<article>
+<div class = "heading">About Us</div>
+<div class = "my-container"></div>
+<hr>
 <!-- section focusing on the science -->
 <a name = "science"></a>
+<div id = "Science"></div>
 <h1>The Science</h1>
 
-<p>We work closely with each of our clients to deliver a site-specific solution to restore contaminated environments and provide long-term solutions to managing contamination.  Our process is cost effective, "green" and faster than most traditional remediation.</p>
+<p class = "para">We work closely with each of our clients to deliver a site-specific solution to restore contaminated environments and provide long-term solutions to managing contamination.  Our process is cost effective, "green" and faster than most traditional remediation.</p>
 
 
 <!-- the Process -->
 <a name = "process"></a>
+<div id = "Process"></div>
 <h1>The Process</h1>
-<ul>
+<ul class = "bullet">
 <li>Is the natural and successful solution to most of today's polluted waste sites and environmental hazards </li>
 <li>Often works on all contaminants of concern with a single application – no continuous on-site staff or equipment required </li>
 <li>Uses indigenous, naturally-occurring microbes found in the environment to create an ecosystem that </li>
@@ -57,8 +173,9 @@ worldwide. </li>
 
 <!--If they don't understand.  Getting to the emotion of why this is a better alternative-->
 <a name = "understand"></a>
+<div id = "Understanding"></div>
 <h1>If they don't understand, they won't do</h1>
-<ul>
+<ul class = "bullet">
 <li>Costs less</li>
 <li>Minimal disturbance of the property so normal site activities can proceed unimpeded</li>
 <li>Waste to be treated remains on site, eliminating dig and haul and reducing environmental liabilities Organic pollutants are converted into non-hazardous products - no need to landfill sludge or residue Minimal capital construction and infrastructure required to commence treatment </li>
@@ -68,7 +185,9 @@ worldwide. </li>
 
 </ul>
 
+</article>
 
+</body>
 
 
 
