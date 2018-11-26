@@ -4,90 +4,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-    /* BEGIN HORIZONTAL DROP-MENU */
-nav {
-    position: relative;
-    width: 100%;  *adjust width as needed*
-    margin: 0 auto;
-    padding: .5em 0em 4em 0em;
-    text-align: center;
-    z-index: 1000;
-    background-color: #362101;
-}
-
-nav ul {
-    margin: 0em;
-    padding: 1em;
-}
-
-nav li {
-    list-style: none;
-    font-size: 2em;
-    float: right;
-    text-align: center;
-}
-/**top level menu**/
-nav li a {
-    display: block;
-    text-decoration: none;
-    margin-right: 2px;   /* space between links */
-    width: 6em;   /* adjust as needed or use auto */
-    padding: 6px 14px;
-    font-weight: bold;
-    line-height: 2em;
-    color: goldenrod;
-    
-   
-    background:#362101;
-}
-/**top menu style on mouse over**/
-nav li:hover > a {
-    color: #362101;
-    background:goldenrod;
-    border-radius: 5px;
-    /* border: 1px 1px 0px 1px solid rgb(1, 134, 30); */
-   }
-
-/**sub-menu**/
-nav li ul {
-    display: none;
-    text-align: center;
-    margin: 0;
-    padding: 0 1em;
-    background:rgb(227, 213, 199);
-    font-weight:normal;
-    font-style:oblique;
-    font-size: .5em;
-    /* border: 0px 1px 1px 1px solid grb(1, 134, 30) */
-}
-
-/**sub-menu, help for older IE**/
-nav li:hover ul, nav li.hover ul {
-    display: block;
-    position: absolute;
-    padding: 0;
-}
-
-nav li:hover li, 
-nav li.hover li {float: none;}
-
-/**drop-menu style**/
-nav li:hover li a, nav li.hover li a {
-    width: 6em;  /* adjust width as needed or use auto */
-    margin-top: 0;
-    line-height:1.25em;
-    font-weight:normal;
-    border:none;
-}
-
-/**drop-menu style on mouse over**/
-nav li li a:hover {
-    background:#362101;
-    color: white;
- 
-}
-    
     
     </style>
 </head>
@@ -95,13 +11,7 @@ nav li li a:hover {
 
 
 <nav>
-        <ul>
-            <li><a href="#">About Us &#9660;</a> 
-                <ul>
-                    <li><a href="#">About Us 1</a>
-    
-                    </li>
-                    <li><a href="#">About Us 2</a>
+
     
                     </li>
                 </ul>
@@ -154,7 +64,6 @@ nav li li a:hover {
             
                             </li>
                         </ul>
-            </li>
-            <li><a href="#">Home</a></li>
+
         </ul>
     </nav>
