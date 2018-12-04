@@ -102,7 +102,7 @@ nav li:hover li,
 nav li.hover li {float: none;}
 /**drop-menu style**/
 nav li:hover li a, nav li.hover li a {
-    width: 6em;  /* adjust width as needed or use auto */
+    width: 8em;  /* adjust width as needed or use auto */
     margin-top: 0;
     line-height:1.25em;
     font-weight:normal;
@@ -178,7 +178,22 @@ img {
   color: #362101;
   line-height: 1.5;
   padding-bottom: 100px;
-  
+  padding-right: 20px;
+  position:relative;
+  bottom: 100px;
 
+}
 
+.alignlefttext {
+  text-align: left;
+  margin-top: -200px;
+  padding-right: 50%;
+  font-size: 20px;
+  font-family: Arial;
+  color: #362101;
+  line-height: 1.5;
+  padding-bottom: 100px;
+  position: relative;
+  bottom: 100px;
+  padding-left: 20px;
 }
